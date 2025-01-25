@@ -1,0 +1,162 @@
+body {
+margin: 0;
+ }
+.hospital-header {
+background-color:#20c997;
+color: white;
+padding: 20px 0;
+position: sticky;
+top: 0px;
+bottom: 0px;
+z-index: 999;
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.logo i {
+font-size: 40px;
+}
+
+.hospital-name {
+text-align: center;
+flex-grow: 1;
+}
+
+.hospital-name h1 {
+margin: 0;
+font-size: 28px;
+}
+
+.hospital-name p {
+margin: 5px 0 0;
+font-size: 18px;
+}
+
+.nav-links a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+font-size: 18px;
+}
+
+.nav-links a:hover {
+text-decoration: underline;
+}
+
+/*.......Services.....*/
+.Services{
+height: 800px;
+width: 100%;
+}
+.Services img{
+margin-top: 20px;
+margin-left: 25px;
+position: relative;
+}
+.SubServices1{
+display: flex;
+  
+  width: 1000%;
+}
+.SubServices1 .Box1,
+.SubServices1 .Box2,
+.SubServices1 .Box3,
+.SubServices1 .Box4{
+height: 280px;
+width: 330px;
+margin-left: 30px;
+background-color: #fff;
+box-shadow: 0px 0px 15px 0px #000;
+transition: 0.5s;
+border-radius: 10px;
+}
+.SubServices{
+height: 380px;
+width: 100%;
+margin-top: -380px;
+position: absolute;
+}
+.Box1 i,.Box2 i,.Box3 i,.Box4 i{
+margin-left: 140px;
+font-size: 30px;
+margin-top: 50px;
+color:#20c997 ;
+}.Serv{
+display: flex;
+}
+.SubServices1 .Box1:hover,
+.SubServices1 .Box2:hover,
+.SubServices1 .Box3:hover,
+.SubServices1 .Box4:hover{
+ transform: scale(1.1);
+}
+
+/*...............fooder..........*/
+.hospital-footer {
+background-color: #00b386;
+color: white;
+padding: 20px 0;
+margin-top: 20px;
+}
+
+.container {
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.footer-section {
+flex: 1;
+margin: 0 20px;
+}
+
+.footer-section h3 {
+margin-top: 0;
+}
+
+.footer-section ul {
+list-style-type: none;
+padding: 0;
+}
+
+.footer-section ul li {
+margin: 5px 0;
+}
+
+.footer-section ul li a {
+color: white;
+text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+text-decoration: underline;
+}
+
+.footer-section a {
+color: white;
+text-decoration: none;
+display: block;
+margin: 5px 0;
+}
+
+.footer-section a:hover {
+text-decoration: underline;
+}
+
+.footer-bottom {
+text-align: center;
+margin-top: 20px;
+}
+
+.footer-bottom p {
+margin: 0;
+}

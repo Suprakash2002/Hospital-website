@@ -1,0 +1,169 @@
+body {
+margin: 0;
+}
+.hospital-header {
+background-color:#20c997;
+color: white;
+padding: 20px 0;
+position: sticky;
+top: 0px;
+bottom: 0px;
+}
+.container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+.logo i {
+font-size: 40px;
+}
+.hospital-name {
+text-align: center;
+flex-grow: 1;
+}
+.hospital-name h1 {
+margin: 0;
+font-size: 28px;
+}
+.hospital-name p {
+margin: 5px 0 0;
+font-size: 18px;
+}
+.nav-links a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+font-size: 18px;
+}
+
+.nav-links a:hover {
+text-decoration: underline;
+}
+/*..................Deparments........*/
+.Deparments{
+height: 590px;
+width: 100%;
+}
+.Deparments h1{
+text-align: center;
+margin-top: 50px;
+}
+.Deparments .P1{
+text-align: center;
+font-size: 20px;
+}
+.SubDeparments{
+height: 360px;
+width: 100%;
+display: flex;
+margin-top: 60px;
+}
+.Deparments1,.Deparments2,.Deparments3,.Deparments4{
+height: 300px;
+width: 300px;
+margin-left: 50px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 0px #20c997;
+transition: 0.5s;
+}
+.Deparments1:hover,.Deparments2:hover,
+.Deparments3:hover,.Deparments4:hover{
+  transform: scale(1.1);
+}
+.Deparments1 img,.Deparments2 img,
+.Deparments3 img,.Deparments4 img{
+   height: 60px;
+   width: 60px;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.Deparments1 .Box,.Deparments2 .Box,
+.Deparments3 .Box,.Deparments4 .Box{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background-color:#20c997 ;
+margin-left: 95px;
+margin-top: 40px;
+}
+.Deparments1 .P2,.Deparments3 .P2,
+.Deparments2 .P2,.Deparments4 .P2{
+text-align:center;
+font-size: 20px; 
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.View{
+height: 45px;
+width: 130px;
+border-radius: 10px;
+margin-left: 670px;
+margin-top: 20px;
+color: #fff;
+font-size: 20px;
+background-color:#20c997 ;
+border: none;
+box-shadow: 0px 0px 10px 0px #20c997;
+}
+.View:hover{
+border: 2px solid #20c997;
+background-color: #fff;
+color: #20c997;
+}
+
+/*...............fooder..........*/
+.hospital-footer {
+background-color: #00b386;
+color: white;
+padding: 20px 0;
+margin-top: 20px;
+}
+
+.container {
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+.footer-section {
+flex: 1;
+margin: 0 20px;
+}
+
+.footer-section h3 {
+margin-top: 0;
+}
+.footer-section ul {
+list-style-type: none;
+padding: 0;
+}
+.footer-section ul li {
+margin: 5px 0;
+}
+.footer-section ul li a {
+color: white;
+text-decoration: none;
+}
+.footer-section ul li a:hover {
+text-decoration: underline;
+}
+.footer-section a {
+color: white;
+text-decoration: none;
+display: block;
+margin: 5px 0;
+}
+.footer-section a:hover {
+text-decoration: underline;
+}
+.footer-bottom {
+text-align: center;
+margin-top: 20px;
+}
+.footer-bottom p {
+margin: 0;
+}

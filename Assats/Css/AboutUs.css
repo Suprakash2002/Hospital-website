@@ -1,0 +1,161 @@
+body {
+margin: 0;
+}
+.hospital-header {
+background-color:#20c997;
+color: white;
+padding: 20px 0;
+position: sticky;
+top: 0px;
+bottom: 0px;
+}
+.container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+.logo i {
+font-size: 40px;
+}
+.hospital-name {
+text-align: center;
+flex-grow: 1;
+}
+.hospital-name h1 {
+margin: 0;
+font-size: 28px;
+}
+.hospital-name p {
+margin: 5px 0 0;
+font-size: 18px;
+}
+.nav-links a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+font-size: 18px;
+}
+.nav-links a:hover {
+text-decoration: underline;
+}
+/*..................About US........*/
+.About{
+height: auto;
+width: 100%;
+
+
+}
+.Sub_About{
+height:auto;
+width: 100%;
+display: flex;
+margin-top: 100px;
+
+
+}
+.Sub_About .box2{
+height: auto;
+width: 400px;
+margin-left: 60px;
+
+}
+.Sub_About .box1 {
+ height: auto;
+width: 500px;
+margin-left: 210px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 0px #000;
+
+}
+.Sub_About .box1 img{
+height: 100%;
+width: 100%;
+border-radius: 10px;
+}
+.Sub_About .box2  p{
+text-align: justify;
+}
+.Read{
+height: 40px;
+width: 130px;
+border-radius: 15px;
+margin-top: 20px;
+background-color: #20c997;
+border: none;
+   color: #fff;
+}
+
+.Read:hover{
+   
+background-color: #fff;
+   color: #20c997;
+   border: 2px solid #20c997 ;
+
+}
+
+/*...............fooder..........*/
+.hospital-footer {
+background-color: #00b386;
+color: white;
+padding: 20px 0;
+margin-top: 20px;
+}
+
+.container {
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.footer-section {
+flex: 1;
+margin: 0 20px;
+}
+
+.footer-section h3 {
+margin-top: 0;
+}
+
+.footer-section ul {
+list-style-type: none;
+padding: 0;
+}
+
+.footer-section ul li {
+margin: 5px 0;
+}
+
+.footer-section ul li a {
+color: white;
+text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+text-decoration: underline;
+}
+
+.footer-section a {
+color: white;
+text-decoration: none;
+display: block;
+margin: 5px 0;
+}
+
+.footer-section a:hover {
+text-decoration: underline;
+}
+
+.footer-bottom {
+text-align: center;
+margin-top: 20px;
+}
+
+.footer-bottom p {
+margin: 0;
+}
+

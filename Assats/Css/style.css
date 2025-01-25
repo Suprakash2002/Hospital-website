@@ -1,0 +1,550 @@
+body {
+margin: 0;
+ }
+.hospital-header {
+background-color:#20c997;
+color: white;
+padding: 20px 0;
+position: sticky;
+top: 0px;
+bottom: 0px;
+z-index: 999;
+}
+.container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+.logo i {
+font-size: 40px;
+}
+.hospital-name {
+text-align: center;
+flex-grow: 1;
+}
+.hospital-name h1 {
+margin: 0;
+font-size: 28px;
+}
+.hospital-name p {
+margin: 5px 0 0;
+font-size: 18px;
+}
+
+.nav-links a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+font-size: 18px;
+}
+
+.nav-links a:hover {
+text-decoration: underline;
+}
+/*...........Home page......*/
+.Main{
+height:400px;
+width: 100%;
+position: absolute;
+}
+.Home{
+position: relative;
+background-color: rgba(0, 0, 0, 0.0);
+margin-top: -520px;
+height: 510px;
+}
+.Main img{
+height: 500px;
+width: 100%;
+}
+.Para{
+height: 200px;
+width: 380px;
+text-align: justify;
+margin-top: 120px;
+margin-left: 150px;
+}
+.Para span{
+font-size: 40px;
+color: #fff;
+font-weight: bold;
+}
+.button1{
+height: 40px;
+width: 120px;
+margin-left: 150px;
+border-radius: 10px;
+background-color: #fff;
+border: none;
+}
+.button1 a{
+text-decoration: none;
+color:#20c997;
+}
+/*..................About US........*/
+.About{
+height: auto;
+width: 100%;
+margin-top: 550px;
+margin-bottom: 100px;
+
+}
+.Sub_About{
+height:450px;
+width: 100%;
+display: flex;
+margin-top: 100px;
+}
+.Sub_About .box2{
+height: 450px;
+width: 400px;
+margin-left: 60px;
+
+}
+.Sub_About .box1 {
+ height: 450px;
+width: 500px;
+margin-left: 210px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 0px #000;
+
+}
+.Sub_About .box1 img{
+height: 100%;
+width: 100%;
+border-radius: 10px;
+}
+.Sub_About .box2p{
+text-align: justify;
+}
+.Read{
+height: 40px;
+width: 130px;
+border-radius: 15px;
+margin-top: 20px;
+background-color: #20c997;
+border: none;
+color: #fff;
+}
+.Read:hover{
+background-color: #fff;
+color: #20c997;
+border: 2px solid #20c997 ;
+}
+/*.......Services.....*/
+.Services{
+height: auto;
+width: 100%;
+margin-bottom: 200px;
+}
+.Services img{
+margin-top: 20px;
+margin-left: 25px;
+position: relative;
+}
+.SubServices1{
+display: flex;
+
+width: 1000%;
+}
+.SubServices1 .Box1,
+.SubServices1 .Box2,
+.SubServices1 .Box3,
+.SubServices1 .Box4{
+height: 280px;
+width: 330px;
+margin-left: 30px;
+background-color: #fff;
+box-shadow: 0px 0px 15px 0px #000;
+transition: 0.5s;
+border-radius: 10px;
+}
+.SubServices{
+height: 380px;
+width: 100%;
+margin-top: -380px;
+position: absolute;
+}
+.Box1 i,.Box2 i,.Box3 i,.Box4 i{
+margin-left: 140px;
+font-size: 30px;
+margin-top: 50px;
+color:#20c997 ;
+}.Serv{
+display: flex;
+}
+.SubServices1 .Box1:hover,
+.SubServices1 .Box2:hover,
+.SubServices1 .Box3:hover,
+.SubServices1 .Box4:hover{
+ transform: scale(1.1);
+}
+.hospital-header {
+background-color:#20c997;
+color: white;
+padding: 20px 0;
+position: sticky;
+top: 0px;
+bottom: 0px;
+}
+.container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+.logo i {
+font-size: 40px;
+}
+.hospital-name {
+text-align: center;
+flex-grow: 1;
+}
+.hospital-name h1 {
+margin: 0;
+font-size: 28px;
+}
+.hospital-name p {
+margin: 5px 0 0;
+font-size: 18px;
+}
+
+.nav-links a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+font-size: 18px;
+}
+.nav-links a:hover {
+text-decoration: underline;
+}
+/*..................Contact Us........*/
+.Contact {
+display: flex;
+align-items: center;
+padding: 2rem;
+}
+.contact-form {
+background-color: white;
+padding: 10px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 600px;
+margin-left: 100px;
+}
+.contact-info{
+height:400px ;
+width: 500px;
+margin-left: 100px;
+}
+
+.contact-form form {
+display: flex;
+flex-direction: column;
+}
+
+.contact-form label {
+margin: 0.5rem 0 0.2rem;
+}
+.contact-form input, .contact-form textarea {
+padding: 0.5rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.contact-form button {
+margin-top: 1rem;
+padding: 0.5rem;
+border: none;
+border-radius: 5px;
+background-color:#20c997;
+color: white;
+cursor: pointer;
+}
+
+/*..................Deparments........*/
+.Deparments{
+height:auto;
+width: 100%;
+}
+.Deparments h1{
+text-align: center;
+margin-top: 50px;
+}
+.Deparments .P1{
+text-align: center;
+font-size: 20px;
+}
+.SubDeparments{
+height: 360px;
+width: 100%;
+display: flex;
+margin-top: 60px;
+}
+.Deparments1,.Deparments2,.Deparments3,.Deparments4{
+height: 300px;
+width: 300px;
+margin-left: 50px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 0px #20c997;
+transition: 0.5s;
+}
+.Deparments1:hover,.Deparments2:hover,
+.Deparments3:hover,.Deparments4:hover{
+transform: scale(1.1);
+}
+.Deparments1 img,.Deparments2 img,
+.Deparments3 img,.Deparments4 img{
+height: 60px;
+width: 60px;
+margin-left: 20px;
+margin-top: 20px;
+}
+.Deparments1 .Box,.Deparments2 .Box,
+.Deparments3 .Box,.Deparments4 .Box{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+background-color:#20c997 ;
+margin-left: 95px;
+margin-top: 40px;
+}
+
+.Deparments1 .P2,.Deparments3 .P2,
+.Deparments2 .P2,.Deparments4 .P2{
+text-align:center;
+font-size: 20px; 
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.View{
+height: 45px;
+width: 130px;
+border-radius: 10px;
+margin-left: 670px;
+margin-top: 20px;
+color: #fff;
+font-size: 20px;
+background-color:#20c997 ;
+border: none;
+box-shadow: 0px 0px 10px 0px #20c997;
+}
+.View:hover{
+border: 2px solid #20c997;
+background-color: #fff;
+color: #20c997;
+}
+/*.......Doctors.....*/
+.Doctors{
+height: auto;
+width: 100%;
+margin-top: 80px;
+}
+.Sub_Doctors{
+height:auto;
+ width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+.BOX1,.BOX2,.BOX3,.BOX4{
+height: 300px;
+width: 330px;
+margin-left: 38px;
+position: relative;
+box-shadow: 0px 0px 10px 0px #000;
+border-radius: 10px;
+
+}
+.BOX1 img,.BOX2 img,.BOX3 img,.BOX4 img{
+height: 300px;
+width: 330px;
+display: block;
+border-radius: 10px;
+}
+.overlay {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: linear-gradient(rgba(0, 0, 0, 0.6), #32a887);
+border-radius: 10px;
+overflow: hidden;
+width: 100%;
+height: 0;
+transition: .5s ease;
+
+}
+.BOX1:hover .overlay,
+.BOX2:hover .overlay,
+.BOX3:hover .overlay,
+.BOX4:hover .overlay
+{
+height: 100%;
+}
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+.overlay i{
+text-align: center;
+margin-top: 160px;
+font-size: 30px;
+margin-left: 10px;
+color: #fff;
+}
+.overlay .fa-facebook{
+margin-left: 110px;
+
+}
+.Button5{
+height: 40px;
+width: 140px;
+margin-left: 650px;
+margin-top: 30px;
+border-radius: 10px;
+border: none;
+background-color: #20c997;
+color: #fff;
+font-size: 20px;
+
+}
+.Button5:hover{
+border: 2px solid #20c997;
+background-color: #fff;
+color: #20c997;
+}
+/*.........appointment......*/
+.appointment-container {
+background: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 600px;
+height: 570px;
+margin-top: 120px;
+margin-left: 80px;
+
+}
+.appointment-container h2 {
+text-align: center;
+margin-bottom: 20px;
+color: #333;
+}
+
+.appointment-container label {
+display: block;
+margin-bottom: 5px;
+color: #555;
+}
+
+.appointment-container input,
+.appointment-container select {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.appointment-container button {
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 4px;
+background-color: #007bff;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+}
+
+.appointment-container button:hover {
+background-color: #0056b3;
+}
+.App{
+height: 760px;
+width: 100%;
+background-color: #20c997;
+display: flex;
+margin-top: 100px;
+}
+.sub_appointment{
+height: 300px;
+width: 700px;
+margin-left: 50px;
+margin-top: 120px;
+}
+
+/*...............fooder..........*/
+.hospital-footer {
+background-color: #00b386;
+color: white;
+padding: 20px 0;
+margin-top: 20px;
+}
+
+.container {
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.footer-section {
+flex: 1;
+margin: 0 20px;
+}
+
+.footer-section h3 {
+margin-top: 0;
+}
+
+.footer-section ul {
+list-style-type: none;
+padding: 0;
+}
+
+.footer-section ul li {
+margin: 5px 0;
+}
+
+.footer-section ul li a {
+color: white;
+text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+text-decoration: underline;
+}
+
+.footer-section a {
+color: white;
+text-decoration: none;
+display: block;
+margin: 5px 0;
+}
+
+.footer-section a:hover {
+text-decoration: underline;
+}
+
+.footer-bottom {
+text-align: center;
+margin-top: 20px;
+}
+
+.footer-bottom p {
+margin: 0;
+}
