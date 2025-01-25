@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book an Appointment</title>
+<link rel="stylesheet" href="Assats\Css\Appointment.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+</head>
+<body>
+<header class="hospital-header">
+<div class="container">
+<div class="logo">
+<i class="fa-regular fa-hospital"></i>
+</div>
+<div class="hospital-name">
+ <h1>City Hospital</h1>
+ <p>Your Health, Our Priority</p>
+</div>
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="About us.html">About Us</a>
+<a href="service.html">Services</a>
+<a href="Deparments.html">Departments</a>
+<a href="Doctors.html">Doctors</a>
+<a href="Appointment.html">Book Appointment</a>
+<a href="Contect.html">Contact</a>
+<a href="Log in.html">Login</a>
+<a href="SignUp.html">Sign Up</a>
+</nav>
+</div>
+</header>
+<div class="App">
+<div class="sub_appointment">
+<h3 style="color:#fff"><u style="width:20px">APPOINTMEN</u></h3>
+<p style="font-size:50px;color: #0033cc;font-weight: bold;margin-top: 10px;">Make An Appointment For<br> Your Family</p>
+<p style="color:#fff;margin-top:-30px;font-size:20px">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+</div>
+<div class="appointment-container">
+<h2>Book an Appointment</h2>
+<form action="/submit_appointment" method="post">
+<label for="fullname">Full Name</label>
+<input type="text" id="fullname" name="fullname" required>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<label for="phone">Phone</label>
+<input type="tel" id="phone" name="phone" required>
+<label for="department">Department</label>
+<select id="department" name="department" required>
+<option value="general">General</option>
+<option value="cardiology">Cardiology</option>
+<option value="neurology">Neurology</option>
+<option value="orthopedics">Orthopedics</option>
+<option value="pediatrics">Pediatrics</option>
+</select>
+<label for="appointment-date">Appointment Date</label>
+<input type="date" id="appointment-date" name="appointment-date" required>
+<label for="appointment-time">Appointment Time</label>
+<input type="time" id="appointment-time" name="appointment-time" required>
+<button type="submit">Book Appointment</button>
+</form>
+</div>
+</div>
+<!---.................fooder..........-->
+ <footer class="hospital-footer">
+<div class="container">
+<div class="footer-section">
+<h3>About Us</h3>
+<p>City Hospital is dedicated to providing top-notch healthcare services to the community.</p>
+</div>
+<div class="footer-section">
+<h3>Contact</h3>
+<p>Email: contact@cityhospital.com</p>
+<p>Phone: +1 (555) 123-4567</p>
+<p>Address: 123 Main St, Anytown, India</p>
+</div>
+<div class="footer-section">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Follow Us</h3>
+<a href="#">Facebook</a>
+<a href="#">Twitter</a>
+<a href="#">Instagram</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2024 City Hospital. All rights reserved.</p>
+</div>
+</footer>
+</body>
+</html>
